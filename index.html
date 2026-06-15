@@ -172,6 +172,12 @@
         .lightbox-content { max-width: 90vw; max-height: 90vh; position: relative; }
         .lightbox-content img { max-width: 90vw; max-height: 90vh; object-fit: contain; border-radius: 8px; box-shadow: 0 0 30px rgba(0,0,0,0.5); }
         .lightbox-close { position: absolute; top: -35px; right: 0; background: none; border: none; color: #fff; font-size: 28px; cursor: pointer; line-height: 1; }
+        .domicilio-obs {
+            font-size: 11px;
+            color: var(--text-secondary);
+            margin-top: 4px;
+            line-height: 1.3;
+        }
     </style>
 </head>
 <body>
@@ -199,8 +205,8 @@
                 <img alt="Marie Piercing" class="profile-img" src="imagens/fotoprincipal.jpg">
                 <h1>@mariebpiercing</h1>
                 <div class="stats">
-                    <div class="stat"><span class="number">446</span><span class="label">posts</span></div>
-                    <div class="stat"><span class="number">1.185</span><span class="label">seguidores</span></div>
+                    <div class="stat"><span class="number">570</span><span class="label">posts</span></div>
+                    <div class="stat"><span class="number">1.391</span><span class="label">seguidores</span></div>
                 </div>
             </div>
         </header>
@@ -268,14 +274,14 @@
                 <div id="orelha" class="category-section">
                     <h2><i class="fas fa-ear-listen"></i> Orelha</h2>
                     <div class="table-container"><table><tbody>
-                        <tr class="piercing-row" data-id="or1" data-name="Lóbulo (joia inclusa)" data-preco="25"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Lóbulo.jpg" alt="Lóbulo"></td><td class="piercing-info"><strong>Lóbulo</strong><br><small>joia inclusa</small></td><td class="piercing-price">R$ 25</td></tr>
-                        <tr class="piercing-row" data-id="or2" data-name="Lóbulo (Par, joia inclusa)" data-preco="40"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Lóbulo (Par).jpg" alt="Lóbulo (Par)"></td><td class="piercing-info"><strong>Lóbulo (Par)</strong><br><small>joia inclusa</small></td><td class="piercing-price">R$ 40</td></tr>
-                        <tr class="piercing-row" data-id="or3" data-name="Trâgus" data-preco="40"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Trâgus.jpg" alt="Trâgus"></td><td class="piercing-info"><strong>Trâgus</strong></td><td class="piercing-price">R$ 40</td></tr>
-                        <tr class="piercing-row" data-id="or4" data-name="Anti-Trâgos" data-preco="40"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Anti-Trâgos.jpg" alt="Anti-Trâgos"></td><td class="piercing-info"><strong>Anti-Trâgos</strong></td><td class="piercing-price">R$ 40</td></tr>
+                        <tr class="piercing-row" data-id="or1" data-name="Lóbulo (joia inclusa)" data-preco="25"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Lobulo.jpg" alt="Lóbulo"></td><td class="piercing-info"><strong>Lóbulo</strong><br><small>joia inclusa</small></td><td class="piercing-price">R$ 25</td></tr>
+                        <tr class="piercing-row" data-id="or2" data-name="Lóbulo (Par, joia inclusa)" data-preco="40"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Lobulo_Par.jpg" alt="Lóbulo (Par)"></td><td class="piercing-info"><strong>Lóbulo (Par)</strong><br><small>joia inclusa</small></td><td class="piercing-price">R$ 40</td></tr>
+                        <tr class="piercing-row" data-id="or3" data-name="Trâgus" data-preco="40"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Tragus.jpg" alt="Trâgus"></td><td class="piercing-info"><strong>Trâgus</strong></td><td class="piercing-price">R$ 40</td></tr>
+                        <tr class="piercing-row" data-id="or4" data-name="Anti-Trâgus" data-preco="40"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Anti_Tragos.jpg" alt="Anti-Trâgus"></td><td class="piercing-info"><strong>Anti-Trâgus</strong></td><td class="piercing-price">R$ 40</td></tr>
                         <tr class="piercing-row" data-id="or5" data-name="Transversal" data-preco="60"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Transversal.jpg" alt="Transversal"></td><td class="piercing-info"><strong>Transversal</strong></td><td class="piercing-price">R$ 60</td></tr>
-                        <tr class="piercing-row" data-id="or6" data-name="Hélix" data-preco="50"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Hélix.jpg" alt="Hélix"></td><td class="piercing-info"><strong>Hélix</strong></td><td class="piercing-price">R$ 50</td></tr>
-                        <tr class="piercing-row" data-id="or7" data-name="Anti-Hélix" data-preco="40"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Anti-Hélix.jpg" alt="Anti-Hélix"></td><td class="piercing-info"><strong>Anti-Hélix</strong></td><td class="piercing-price">R$ 40</td></tr>
-                        <tr class="piercing-row" data-id="or8" data-name="Mid-Hélix" data-preco="40"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Mid-Hélix.jpg" alt="Mid-Hélix"></td><td class="piercing-info"><strong>Mid-Hélix</strong></td><td class="piercing-price">R$ 40</td></tr>
+                        <tr class="piercing-row" data-id="or6" data-name="Hélix" data-preco="50"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Helix.jpg" alt="Hélix"></td><td class="piercing-info"><strong>Hélix</strong></td><td class="piercing-price">R$ 50</td></tr>
+                        <tr class="piercing-row" data-id="or7" data-name="Anti-Hélix" data-preco="40"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Anti_Helix.jpg" alt="Anti-Hélix"></td><td class="piercing-info"><strong>Anti-Hélix</strong></td><td class="piercing-price">R$ 40</td></tr>
+                        <tr class="piercing-row" data-id="or8" data-name="Mid-Hélix" data-preco="40"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Mid_Helix.jpg" alt="Mid-Hélix"></td><td class="piercing-info"><strong>Mid-Hélix</strong></td><td class="piercing-price">R$ 40</td></tr>
                         <tr class="piercing-row" data-id="or9" data-name="Daith" data-preco="45"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Daith.jpg" alt="Daith"></td><td class="piercing-info"><strong>Daith</strong></td><td class="piercing-price">R$ 45</td></tr>
                         <tr class="piercing-row" data-id="or10" data-name="Rook" data-preco="45"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Rook.jpg" alt="Rook"></td><td class="piercing-info"><strong>Rook</strong></td><td class="piercing-price">R$ 45</td></tr>
                         <tr class="piercing-row" data-id="or11" data-name="Snug" data-preco="35"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Snug.jpg" alt="Snug"></td><td class="piercing-info"><strong>Snug</strong></td><td class="piercing-price">R$ 35</td></tr>
@@ -291,7 +297,7 @@
                     <div class="table-container"><table><tbody>
                         <tr class="piercing-row" data-id="co1" data-name="Umbigo" data-preco="60"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Umbigo.jpg" alt="Umbigo"></td><td class="piercing-info"><strong>Umbigo</strong></td><td class="piercing-price">R$ 60</td></tr>
                         <tr class="piercing-row" data-id="co2" data-name="Mamilo" data-preco="50"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Mamilo.jpg" alt="Mamilo"></td><td class="piercing-info"><strong>Mamilo</strong></td><td class="piercing-price">R$ 50</td></tr>
-                        <tr class="piercing-row" data-id="co3" data-name="Mamilo (Par)" data-preco="85"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Mamilo (Par).jpg" alt="Mamilo (Par)"></td><td class="piercing-info"><strong>Mamilo (Par)</strong></td><td class="piercing-price">R$ 85</td></tr>
+                        <tr class="piercing-row" data-id="co3" data-name="Mamilo (Par)" data-preco="85"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Mamilo_Par.jpg" alt="Mamilo (Par)"></td><td class="piercing-info"><strong>Mamilo (Par)</strong></td><td class="piercing-price">R$ 85</td></tr>
                     </tbody></table></div>
                 </div>
                 <!-- BOCA -->
@@ -299,18 +305,18 @@
                     <h2><i class="fas fa-smile"></i> Boca</h2>
                     <div class="table-container"><table><tbody>
                         <tr class="piercing-row" data-id="bo1" data-name="Ashley" data-preco="60"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Ashley.jpg" alt="Ashley"></td><td class="piercing-info"><strong>Ashley</strong></td><td class="piercing-price">R$ 60</td></tr>
-                        <tr class="piercing-row" data-id="bo2" data-name="Double Ashley" data-preco="100"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Double Ashley.jpg" alt="Double Ashley"></td><td class="piercing-info"><strong>Double Ashley</strong></td><td class="piercing-price">R$ 100</td></tr>
-                        <tr class="piercing-row" data-id="bo3" data-name="Dolphin Bites" data-preco="65"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Dolphin Bites.jpg" alt="Dolphin Bites"></td><td class="piercing-info"><strong>Dolphin Bites</strong></td><td class="piercing-price">R$ 65</td></tr>
-                        <tr class="piercing-row" data-id="bo4" data-name="Spider Bites" data-preco="65"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Spider Bites.jpg" alt="Spider Bites"></td><td class="piercing-info"><strong>Spider Bites</strong></td><td class="piercing-price">R$ 65</td></tr>
-                        <tr class="piercing-row" data-id="bo5" data-name="Shark Bites" data-preco="100"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Shark Bites.jpg" alt="Shark Bites"></td><td class="piercing-info"><strong>Shark Bites</strong></td><td class="piercing-price">R$ 100</td></tr>
-                        <tr class="piercing-row" data-id="bo6" data-name="Cyber Bites" data-preco="65"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Cyber Bites.jpg" alt="Cyber Bites"></td><td class="piercing-info"><strong>Cyber Bites</strong></td><td class="piercing-price">R$ 65</td></tr>
-                        <tr class="piercing-row" data-id="bo7" data-name="Snake Bites" data-preco="55"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Snake Bites.jpg" alt="Snake Bites"></td><td class="piercing-info"><strong>Snake Bites</strong></td><td class="piercing-price">R$ 55</td></tr>
-                        <tr class="piercing-row" data-id="bo8" data-name="Canine Bites" data-preco="100"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Canine Bites.jpg" alt="Canine Bites"></td><td class="piercing-info"><strong>Canine Bites</strong></td><td class="piercing-price">R$ 100</td></tr>
-                        <tr class="piercing-row" data-id="bo9" data-name="Angel Bites" data-preco="75"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Angel Bites.jpg" alt="Angel Bites"></td><td class="piercing-info"><strong>Angel Bites</strong></td><td class="piercing-price">R$ 75</td></tr>
-                        <tr class="piercing-row" data-id="bo10" data-name="Angel Fangs" data-preco="75"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Angel Fangs.jpg" alt="Angel Fangs"></td><td class="piercing-info"><strong>Angel Fangs</strong></td><td class="piercing-price">R$ 75</td></tr>
+                        <tr class="piercing-row" data-id="bo2" data-name="Double Ashley" data-preco="100"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Double_Ashley.jpg" alt="Double Ashley"></td><td class="piercing-info"><strong>Double Ashley</strong></td><td class="piercing-price">R$ 100</td></tr>
+                        <tr class="piercing-row" data-id="bo3" data-name="Dolphin Bites" data-preco="65"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Dolphin_Bites.jpg" alt="Dolphin Bites"></td><td class="piercing-info"><strong>Dolphin Bites</strong></td><td class="piercing-price">R$ 65</td></tr>
+                        <tr class="piercing-row" data-id="bo4" data-name="Spider Bites" data-preco="65"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Spider_Bites.jpg" alt="Spider Bites"></td><td class="piercing-info"><strong>Spider Bites</strong></td><td class="piercing-price">R$ 65</td></tr>
+                        <tr class="piercing-row" data-id="bo5" data-name="Shark Bites" data-preco="100"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Shark_Bites.jpg" alt="Shark Bites"></td><td class="piercing-info"><strong>Shark Bites</strong></td><td class="piercing-price">R$ 100</td></tr>
+                        <tr class="piercing-row" data-id="bo6" data-name="Cyber Bites" data-preco="65"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Cyber_Bites.jpg" alt="Cyber Bites"></td><td class="piercing-info"><strong>Cyber Bites</strong></td><td class="piercing-price">R$ 65</td></tr>
+                        <tr class="piercing-row" data-id="bo7" data-name="Snake Bites" data-preco="55"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Snake_Bites.jpg" alt="Snake Bites"></td><td class="piercing-info"><strong>Snake Bites</strong></td><td class="piercing-price">R$ 55</td></tr>
+                        <tr class="piercing-row" data-id="bo8" data-name="Canine Bites" data-preco="100"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Canine_Bites.jpg" alt="Canine Bites"></td><td class="piercing-info"><strong>Canine Bites</strong></td><td class="piercing-price">R$ 100</td></tr>
+                        <tr class="piercing-row" data-id="bo9" data-name="Angel Bites" data-preco="75"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Angel_Bites.jpg" alt="Angel Bites"></td><td class="piercing-info"><strong>Angel Bites</strong></td><td class="piercing-price">R$ 75</td></tr>
+                        <tr class="piercing-row" data-id="bo10" data-name="Angel Fangs" data-preco="75"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Angel_Fangs.jpg" alt="Angel Fangs"></td><td class="piercing-info"><strong>Angel Fangs</strong></td><td class="piercing-price">R$ 75</td></tr>
                         <tr class="piercing-row" data-id="bo11" data-name="Labret" data-preco="45"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Labret.jpg" alt="Labret"></td><td class="piercing-info"><strong>Labret</strong></td><td class="piercing-price">R$ 45</td></tr>
-                        <tr class="piercing-row" data-id="bo12" data-name="Labret Lateral" data-preco="45"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Labret Lateral.jpg" alt="Labret Lateral"></td><td class="piercing-info"><strong>Labret Lateral</strong></td><td class="piercing-price">R$ 45</td></tr>
-                        <tr class="piercing-row" data-id="bo13" data-name="Vertical Labret" data-preco="50"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Vertical Labret.jpg" alt="Vertical Labret"></td><td class="piercing-info"><strong>Vertical Labret</strong></td><td class="piercing-price">R$ 50</td></tr>
+                        <tr class="piercing-row" data-id="bo12" data-name="Labret Lateral" data-preco="45"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Labret_Lateral.jpg" alt="Labret Lateral"></td><td class="piercing-info"><strong>Labret Lateral</strong></td><td class="piercing-price">R$ 45</td></tr>
+                        <tr class="piercing-row" data-id="bo13" data-name="Vertical Labret" data-preco="50"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Vertical_Labret.jpg" alt="Vertical Labret"></td><td class="piercing-info"><strong>Vertical Labret</strong></td><td class="piercing-price">R$ 50</td></tr>
                         <tr class="piercing-row" data-id="bo14" data-name="Jestrum" data-preco="45"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Jestrum.jpg" alt="Jestrum"></td><td class="piercing-info"><strong>Jestrum</strong></td><td class="piercing-price">R$ 45</td></tr>
                         <tr class="piercing-row" data-id="bo15" data-name="Medusa" data-preco="40"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Medusa.jpg" alt="Medusa"></td><td class="piercing-info"><strong>Medusa</strong></td><td class="piercing-price">R$ 40</td></tr>
                         <tr class="piercing-row" data-id="bo16" data-name="Madonna" data-preco="40"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Madonna.jpg" alt="Madonna"></td><td class="piercing-info"><strong>Madonna</strong></td><td class="piercing-price">R$ 40</td></tr>
@@ -321,10 +327,10 @@
                 <div id="rosto" class="category-section">
                     <h2><i class="fas fa-user"></i> Rosto</h2>
                     <div class="table-container"><table><tbody>
-                        <tr class="piercing-row" data-id="ro1" data-name="Supercílio/Sobrancelha" data-preco="50"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Supercílio.jpg" alt="Supercílio/Sobrancelha"></td><td class="piercing-info"><strong>Supercílio/Sobrancelha</strong></td><td class="piercing-price">R$ 50</td></tr>
-                        <tr class="piercing-row" data-id="ro2" data-name="Clown Eyes / Supercílio Duplo" data-preco="80"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Clown Eyes.jpg" alt="Clown Eyes / Supercílio Duplo"></td><td class="piercing-info"><strong>Clown Eyes / Supercílio Duplo</strong></td><td class="piercing-price">R$ 80</td></tr>
+                        <tr class="piercing-row" data-id="ro1" data-name="Supercílio/Sobrancelha" data-preco="50"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Supercilio.jpg" alt="Supercílio/Sobrancelha"></td><td class="piercing-info"><strong>Supercílio/Sobrancelha</strong></td><td class="piercing-price">R$ 50</td></tr>
+                        <tr class="piercing-row" data-id="ro2" data-name="Clown Eyes / Supercílio Duplo" data-preco="80"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Clown_Eyes.jpg" alt="Clown Eyes / Supercílio Duplo"></td><td class="piercing-info"><strong>Clown Eyes / Supercílio Duplo</strong></td><td class="piercing-price">R$ 80</td></tr>
                         <tr class="piercing-row" data-id="ro3" data-name="Nostril" data-preco="50"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Nostril.jpg" alt="Nostril"></td><td class="piercing-info"><strong>Nostril</strong></td><td class="piercing-price">R$ 50</td></tr>
-                        <tr class="piercing-row" data-id="ro4" data-name="Duplo Nostril" data-preco="70"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Duplo Nostril.jpg" alt="Duplo Nostril"></td><td class="piercing-info"><strong>Duplo Nostril</strong></td><td class="piercing-price">R$ 70</td></tr>
+                        <tr class="piercing-row" data-id="ro4" data-name="Duplo Nostril" data-preco="70"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Duplo_Nostril.jpg" alt="Duplo Nostril"></td><td class="piercing-info"><strong>Duplo Nostril</strong></td><td class="piercing-price">R$ 70</td></tr>
                         <tr class="piercing-row" data-id="ro5" data-name="Septo" data-preco="55"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Septo.jpg" alt="Septo"></td><td class="piercing-info"><strong>Septo</strong></td><td class="piercing-price">R$ 55</td></tr>
                         <tr class="piercing-row" data-id="ro6" data-name="Bridge" data-preco="70"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Bridge.jpg" alt="Bridge"></td><td class="piercing-info"><strong>Bridge</strong></td><td class="piercing-price">R$ 70</td></tr>
                         <tr class="piercing-row" data-id="ro7" data-name="Surface" data-preco="130"><td><span class="check-mark"></span></td><td class="piercing-img"><img src="imagens/Surface.jpg" alt="Surface"></td><td class="piercing-info"><strong>Surface</strong><br><small>Joia inclusa em Titânio</small></td><td class="piercing-price">R$ 130</td></tr>
@@ -343,10 +349,41 @@
             <section class="form-section" id="dados">
                 <h2><i class="fas fa-user-edit"></i> Seus dados</h2>
                 <div class="form-card">
-                    <div class="form-group"><label for="nome"><i class="fas fa-user"></i> Nome completo *</label><div class="input-with-icon"><i class="fas fa-user"></i><input type="text" id="nome" placeholder="Seu nome" required></div></div>
+                    <div class="form-group"><label for="nome"><i class="fas fa-user"></i> Nome</label><div class="input-with-icon"><i class="fas fa-user"></i><input type="text" id="nome" placeholder="Seu nome" required></div></div>
                     <div class="form-group"><label><i class="fas fa-venus-mars"></i> Pronomes</label><div class="chips-container" id="pronomes-chips"><label class="chip"><input type="radio" name="pronome" value="Ela/Dela" checked> Ela/Dela</label><label class="chip"><input type="radio" name="pronome" value="Ele/Dele"> Ele/Dele</label><label class="chip"><input type="radio" name="pronome" value="Elu/Delu"> Elu/Delu</label><label class="chip"><input type="radio" name="pronome" value="outro"> Outro</label></div><input type="text" id="pronome-outro" placeholder="Digite seu pronome" style="display:none; margin-top:8px; width:100%; padding:10px; border-radius:8px; border:1px solid var(--input-border); background:var(--input-bg); color:var(--text);"></div>
-                    <div class="form-group"><label><i class="fas fa-home"></i> Atendimento a domicílio?</label><div class="chips-container" id="domicilio-chips"><label class="chip"><input type="radio" name="domicilio" value="nao" checked> Não, vou até você</label><label class="chip"><input type="radio" name="domicilio" value="sim"> Sim, quero em casa</label></div></div>
-                    <div class="form-group" id="bairro-cidade-container" style="display:none;"><label for="bairro-cidade"><i class="fas fa-map-marker-alt"></i> Selecione seu bairro / cidade</label><div class="input-with-icon"><i class="fas fa-map-marker-alt"></i><select id="bairro-cidade"><option value="">Escolha a localização</option><optgroup label="Natal (R$15-R$25)"><option value="Planalto / Leningrado" data-preco="15">Planalto / Leningrado – R$15</option><option value="Felipe Camarão" data-preco="20">Felipe Camarão – R$20</option><option value="Cidade Nova" data-preco="20">Cidade Nova – R$20</option><option value="Guarapes" data-preco="20">Guarapes – R$20</option><option value="Bom Pastor" data-preco="20">Bom Pastor – R$20</option><option value="Quintas" data-preco="25">Quintas – R$25</option><option value="Alecrim" data-preco="25">Alecrim – R$25</option><option value="Lagoa Nova" data-preco="25">Lagoa Nova – R$25</option><option value="Tirol" data-preco="25">Tirol – R$25</option><option value="Petrópolis" data-preco="25">Petrópolis – R$25</option><option value="Ponta Negra" data-preco="25">Ponta Negra – R$25</option><option value="Redinha" data-preco="25">Redinha – R$25</option></optgroup><optgroup label="Região Metropolitana"><option value="Parnamirim (Centro)" data-preco="25">Parnamirim (Centro) – R$25</option><option value="São Gonçalo do Amarante" data-preco="30">São Gonçalo do Amarante – R$30</option><option value="Extremoz" data-preco="30">Extremoz – R$30</option></optgroup><option value="Outra (verificar)" data-preco="0">Outra localidade (a combinar)</option></select></div></div>
+                    <div class="form-group"><label><i class="fas fa-home"></i> Atendimento a domicílio?</label><div class="chips-container" id="domicilio-chips"><label class="chip"><input type="radio" name="domicilio" value="nao" checked> Não, vou até você</label><label class="chip"><input type="radio" name="domicilio" value="sim"> Sim, a domicilio</label></div></div>
+                    <div class="form-group" id="bairro-cidade-container" style="display:none;">
+                        <label for="bairro-cidade"><i class="fas fa-map-marker-alt"></i> Selecione seu bairro / cidade</label>
+                        <div class="input-with-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <select id="bairro-cidade">
+                                <option value="">Escolha a localização</option>
+                                <optgroup label="Natal">
+                                    <option value="Planalto" data-preco="10">Planalto – R$10</option>
+                                    <option value="Felipe Camarão" data-preco="15">Felipe Camarão – R$15</option>
+                                    <option value="Guarapes" data-preco="15">Guarapes – R$15</option>
+                                    <option value="Cidade Nova" data-preco="15">Cidade Nova – R$15</option>
+                                    <option value="Bom Pastor" data-preco="15">Bom Pastor – R$15</option>
+                                    <option value="Quintas" data-preco="17">Quintas – R$17</option>
+                                    <option value="Alecrim" data-preco="17">Alecrim – R$17</option>
+                                    <option value="Lagoa Nova" data-preco="17">Lagoa Nova – R$17</option>
+                                    <option value="Tirol" data-preco="20">Tirol – R$20</option>
+                                    <option value="Petrópolis" data-preco="20">Petrópolis – R$20</option>
+                                    <option value="Ponta Negra" data-preco="20">Ponta Negra – R$20</option>
+                                    <option value="Redinha" data-preco="20">Redinha – R$20</option>
+                                </optgroup>
+                                <optgroup label="Região Metropolitana">
+                                    <option value="Parnamirim" data-preco="30">Parnamirim – R$30</option>
+                                    <option value="São Gonçalo do Amarante" data-preco="30">São Gonçalo do Amarante – R$30</option>
+                                    <option value="Extremoz" data-preco="35">Extremoz – R$35</option>
+                                </optgroup>
+                                <option value="Outra (verificar)" data-preco="0">Outra localidade (a combinar)</option>
+                            </select>
+                        </div>
+                        <div class="domicilio-obs">
+                            <i class="fas fa-info-circle"></i> Os valores podem variar conforme o local exato.
+                        </div>
+                    </div>
                     <div class="form-group"><label for="disponibilidade"><i class="fas fa-calendar-alt"></i> Disponibilidade de horário (opcional)</label><div class="input-with-icon"><i class="fas fa-calendar-alt"></i><select id="disponibilidade"><option value="">Selecione</option><option value="Manhã">Manhã</option><option value="Tarde">Tarde</option><option value="Noite">Noite</option><option value="A combinar">A combinar</option></select></div></div>
                     <div class="form-group"><label for="como-conheceu"><i class="fas fa-search"></i> Como me conheceu? (opcional)</label><div class="input-with-icon"><i class="fas fa-search"></i><select id="como-conheceu"><option value="">Selecione</option><option value="Instagram">Instagram</option><option value="Indicação">Indicação</option><option value="TikTok">TikTok</option><option value="Google">Google</option><option value="Outro">Outro</option></select></div></div>
                     <div class="form-group"><label for="historico"><i class="fas fa-notes-medical"></i> Histórico de piercings / alergias (opcional)</label><div class="input-with-icon"><i class="fas fa-notes-medical"></i><textarea id="historico" rows="2" placeholder="Conte-me..."></textarea></div></div>
@@ -378,8 +415,7 @@
             </section>
         </main>
         <footer>
-            <p>&copy; 2024 Marie Body Piercing.</p>
-            <div class="footer-links"><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></div>
+            <p>&copy; 2026 Marie Body Piercing.</p>
         </footer>
     </div>
 
